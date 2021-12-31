@@ -1,0 +1,28 @@
+main {
+  min-height: 700px;
+}
+
+main h1 {
+  font-family: "Pattaya", sans-serif;
+  border-bottom: 3px solid silver;
+  margin-bottom: 20px;
+}
+
+.accordion-header .accordion-button {
+  background: #eee;
+  color: black;
+  outline: none;
+  box-shadow: none;
+}
+
+/* מה קורה ברגע שהכותרת באקורדיון לחוצה */
+.accordion-header .accordion-button:not(.collapsed) {
+  background: linear-gradient(
+    90deg,
+    rgba(80, 80, 84, 1) 0%,
+    rgba(16, 119, 147, 1) 30%,
+    rgba(23, 158, 198, 1) 69%,
+    rgba(54, 87, 98, 1) 100%
+  );
+  color: #eee;
+}

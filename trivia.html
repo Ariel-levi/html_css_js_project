@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/trivia.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet" />
+    <title>Trivia</title>
+    <script src="js/js_trivia/lodash.min.js"></script>
+    <script type="module" src="js/js_trivia/app_trivia.js"></script>
+  </head>
+  <body>
+    <!-- start header -->
+    <header class="container-fluid sticky-top">
+      <div class="container">
+        <div class="logo">
+          <img class="my-2" src="images/logo.png" alt="logo" height="60" />
+          Ariel-Levi
+        </div>
+        <nav id="nav_burger">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="media.html">Media</a>
+          <a href="faq.html">FAQ</a>
+          <a href="trivia.html" class="active">Trivia</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div id="burger_btn" class="burger" onclick="burgerFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start main -->
+    <main class="container-fluid text-center">
+      <div class="container my-5">
+        <h1 class="textColor my-2">Trivia game <img class="img_game" src="images/controller.png"></h1>
+        <div class="col-lg-6 mx-auto">
+          <div id="id_question">
+            <h2 class="textColor my-2">: שאלה</h2>
+            <span class="qfontsize" id="id_q"></span>
+            <div class="row m-5">
+              <button class="m-1" id="id_a1">answer 1</button>
+              <button class="m-1" id="id_a2">answer 2</button>
+              
+              <button class="m-1" id="id_a3">answer 3</button>
+              <button class="m-1" id="id_a4">answer 4</button>
+            </div>
+          </div>
+          <div class="score">
+            <h4 class="textColor">Your score : <span id="id_score">0</span> / 100</h4>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <footer class="container-fluid">
+          <div class="container">
+            <div class="col-12 row justify-content-around text-center">
+              <div>
+                <a href="#">
+                  <i class="px-3 my-4 fa fa-2x fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="#">
+                  <i class="px-3 my-4 fa fa-2x fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="#">
+                  <i class="px-3 my-4 fa fa-2x fa-instagram" aria-hidden="true"></i></a>
+                <a href="#">
+                  <i class="px-3 my-4 fa fa-2x fa-youtube-play" aria-hidden="true"></i></a>
+              </div>
+              <p class="text-white-50 mb-3">
+                &copy; Ariel-Levi <span id="id_year"></span>
+              </p>
+            </div>
+          </div>
+      
+          </div>
+    </footer>
+    <!-- end footer -->
+    
+    <!-- script main bootstrap for slider and animation FROM https://lottiefiles.com/ -->
+    <script src="js/main.js"></script>
+    <!-- end script -->
+    
+  </body>
+</html>

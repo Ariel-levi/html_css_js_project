@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/faq.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap"
+      rel="stylesheet"
+    />
+    <title>FAQ</title>
+    <script src="js/faq.js"></script>
+  </head>
+  <body>
+    <!-- start header -->
+    <header class="container-fluid sticky-top">
+      <div class="container">
+        <div class="logo">
+          <img class="my-2" src="images/logo.png" alt="logo" height="60" />
+          Ariel-Levi
+        </div>
+        <nav id="nav_burger">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="media.html">Media</a>
+          <a href="faq.html" class="active">FAQ</a>
+          <a href="trivia.html">Trivia</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div id="burger_btn" class="burger" onclick="burgerFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start main -->
+    <main class="container-fluid py-5">
+      <div class="container" style="max-width:1100px">
+        <h1 class="text-center textColor">FAQ About Our Site: </h1>
+        <div class="accordion" id="accordionExample">
+          <!-- data-bs-target = צריך להתאים בדיב מתחת את אותו איי די id= -->
+          <!-- q 1 start -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">               
+                  What skills are needed to be an architecture?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Numerical skills, Creative skills, Design skills, Legal knowledge, Communication skills, Teamwork skills, Commercial awareness, Artistic skills
+              </div>
+            </div>
+          </div>
+          <!-- q 1 end -->
+          <!-- q 2 start -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Do architects need to be good at drawing?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">              
+                  I am living proof that you don't have to draw well to be an architect. Having the ability to draw beautiful pictures doesn't hurt but let's pull the curtain back and be honest here for a minute … Architects communicate through their drawings – we aren't making art
+              </div>
+            </div>
+          </div>
+          <!-- q 2 end -->
+          <!-- q 3 start -->
+           <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapseTwo">
+                How many years does it take to be an architect?
+              </button>
+            </h2>
+            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                The Bachelor of Science in Architecture is a five year college degree intended for people who wish to pursue a career in Architecture
+              </div>
+            </div>
+          </div>
+          <!-- q 3 end -->
+          <!-- q 4 start -->
+           <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapseTwo">
+                Can I be an architect if I'm bad at math?
+              </button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Not really. If you understand general geometry and physics you are good; having addition, subtraction, multiplication and sometimes division skills are encouraged. Aspiring architects should challenge themselves with as much math as they can handle (plus the class one further than they can handle)
+              </div>
+            </div>
+          </div>
+          <!-- q 4 end -->
+          <!-- q 5 start -->
+           <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapseTwo">
+                How smart do you have to be to be an architect?
+              </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                They must possess a variety of qualities, most of which they must excel in. Architects need to have a strong understanding of all building disciplines, including structural, electrical and mechanical. This takes smarts. And while simply being smart does not make you a 
+              </div>
+            </div>
+          </div>
+          <!-- q 5 end -->
+        </div>          
+      </div>
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <footer class="container-fluid">
+          <div class="container">
+            <div class="col-12 row justify-content-around text-center">
+              <div>
+                <a href="#">
+                  <i class="px-3 my-4 fa fa-2x fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="#">
+                  <i class="px-3 my-4 fa fa-2x fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="#">
+                  <i class="px-3 my-4 fa fa-2x fa-instagram" aria-hidden="true"></i></a>
+                <a href="#">
+                  <i class="px-3 my-4 fa fa-2x fa-youtube-play" aria-hidden="true"></i></a>
+              </div>
+              <p class="text-white-50 mb-3">
+                &copy; Ariel-Levi <span id="id_year"></span>
+              </p>
+            </div>
+          </div>
+      
+          </div>
+    </footer>
+    <!-- end footer -->
+    
+    <!-- script main bootstrap for slider and animation FROM https://lottiefiles.com/ -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <!-- end script -->
+    
+  </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap"
+      rel="stylesheet"
+    />
+    <title>contact</title>
+    <script src="js/contact.js"></script>
+  </head>
+  <body>
+    <!-- start header -->
+    <header class="container-fluid sticky-top">
+      <div class="container">
+        <div class="logo">
+          <img class="my-2" src="images/logo.png" alt="logo" height="60" />
+          Ariel-Levi
+        </div>
+        <nav id="nav_burger">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="media.html">Media</a>
+          <a href="faq.html">FAQ</a>
+          <a href="trivia.html">Trivia</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+        <div id="burger_btn" class="burger" onclick="burgerFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start main -->
+    <main>
+      <div class="container contact-form">
+        <div class="contact-image">
+            <img src="images/contact.png" alt="contact-image"/>
+        </div>
+        <form onsubmit="checkEmail(event)" id="id_send">
+            <h3 class="textColor">Message Me</h3>
+           <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group mb-3">
+                        <input required type="text" name="Name" class="form-control" placeholder="Your Name *" />
+                    </div>
+                    <div class="form-group my-3">
+                        <input required id="id_email" type="text" name="Email" class="form-control" placeholder="Your Email *" />
+                        <small id="id_spanEmail" class="text-danger spanEmail">* Plese Enter Valide Email '@' and '.'</small>
+                    </div>
+                    <div class="form-group my-3">
+                        <input required type="text" name="Phone" class="form-control" placeholder="Your Phone Number *" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group mb-3">
+                      <textarea required name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                  </div>
+                </div>
+                <div class="form-group my-3">
+                  <button id="id_form" class="btn btn-danger rounded-3" type="submit">Send Message</button>
+              </div>
+            </div>
+        </form>
+    </div>
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <footer class="container-fluid">
+          <div class="container">
+            <div class="col-12 row justify-content-around text-center">
+              <div>
+                <a href="#">
+                  <i class="px-3 my-4 fa fa-2x fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="#">
+                  <i class="px-3 my-4 fa fa-2x fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="#">
+                  <i class="px-3 my-4 fa fa-2x fa-instagram" aria-hidden="true"></i></a>
+                <a href="#">
+                  <i class="px-3 my-4 fa fa-2x fa-youtube-play" aria-hidden="true"></i></a>
+              </div>
+              <p class="text-white-50 mb-3">
+                &copy; Ariel-Levi <span id="id_year"></span>
+              </p>
+            </div>
+          </div>
+      
+          </div>
+    </footer>
+    <!-- end footer -->
+    
+    <!-- script main bootstrap for slider and aos animation-->
+    <script src="js/main.js"></script>
+    <!-- end script -->
+    
+  </body>
+</html>

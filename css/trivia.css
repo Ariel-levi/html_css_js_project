@@ -1,0 +1,71 @@
+main {
+    min-height: 700px;
+}
+
+.img_game {
+    width: 10%;
+
+}
+
+.row button {
+    border: none;
+    padding: 12px 16px;
+    border-radius: 15px;
+    background: #eee;
+    transition: 500ms;
+    font-size: 1.2em;
+}
+
+.row button:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: inset 0 0 0 3px rgb(184, 184, 184);
+
+}
+
+.row button:active {
+    border: none !important;
+    transform: none;
+}
+
+main h1 {
+    font-size: 5em !important;
+    font-family: "Henny Penny", cursive;
+}
+
+main h2 {
+    font-size: 5em !important;
+}
+
+main .qfontsize {
+    font-size: 3.5em !important;
+}
+
+main h4 {
+    font-size: 2em !important;
+    font-family: "Pattaya", sans-serif;
+
+}
+
+.endgame {
+    margin-top:40px;
+}
+
+.img_startGame {
+    width: 170px;
+}
+
+.img_startGame:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .row button:hover {
+        border: none !important;
+        transform: none;
+    }
+
+    main h4 {
+        margin-bottom: 30px !important;
+    }
+}

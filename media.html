@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/light_box.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet" />
+    <title>Media</title>
+    <script src="js/media.js"></script>
+  </head>
+  <body>
+    <!-- start header -->
+    <header class="container-fluid sticky-top">
+      <div class="container">
+        <div class="logo">
+          <img class="my-2" src="images/logo.png" alt="logo" height="60" />
+          Ariel-Levi
+        </div>
+        <nav id="nav_burger">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="media.html" class="active" >Media</a>
+          <a href="faq.html">FAQ</a>
+          <a href="trivia.html">Trivia</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div id="burger_btn" class="burger" onclick="burgerFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start main -->
+    <main>
+        <div class="top">
+          <div class="container my-5 sm-img shadow d-flex align-items-center justify-content-center">
+              <h1 class="textColor">My Galery</h1>
+          </div>
+      </div>
+
+      <div class="container">
+        <!-- start box -->
+        <div id="id_parent" class="row g-4 justify-content-center my-5">
+            <!-- images from json file -->
+          </div>
+        <!-- end box -->
+      </div>
+      <!-- start videos -->
+      <div class="videos container py-5">
+        <h2 class="display-3 text-center py-4 text-dark">Videos</h2>
+        <div class="row py-4">
+          <div class="col-lg-6 mb-5">
+            <iframe src="https://www.youtube.com/embed/lK2nUoT5gpo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+          </div>
+          <div class="col-lg-6">
+            <iframe src="https://www.youtube.com/embed/AejFWNG9ag0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+      <!-- end videos -->
+    </main>
+    <!-- end main -->
+    <!-- start footer -->
+    <footer class="container-fluid">
+          <div class="container">
+            <div class="col-12 row justify-content-around text-center">
+              <div>
+                <a href="#">
+                  <i class="px-3 my-4 fa fa-2x fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="#">
+                  <i class="px-3 my-4 fa fa-2x fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="#">
+                  <i class="px-3 my-4 fa fa-2x fa-instagram" aria-hidden="true"></i></a>
+                <a href="#">
+                  <i class="px-3 my-4 fa fa-2x fa-youtube-play" aria-hidden="true"></i></a>
+              </div>
+              <p class="text-white-50 mb-3">
+                &copy; Ariel-Levi <span id="id_year"></span>
+              </p>
+            </div>
+          </div>
+      
+          </div>
+    </footer>
+    <!-- end footer -->
+    
+    <!-- script main bootstrap for slider and aos animation-->
+    <script src="js/lightbox_pro.js"></script>
+    <script src="js/main.js"></script>
+    <!-- end script -->
+    
+  </body>
+</html>
+
+
+
+

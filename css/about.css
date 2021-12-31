@@ -1,0 +1,58 @@
+body {
+  background: rgb(192, 192, 192);
+}
+
+main {
+  min-height: 600px;
+}
+
+main .container {
+  min-height: 500px;
+  border-radius: 32px;
+  background: #eee;
+  margin-top: 135px;
+  align-items: center;
+}
+
+main .container .myImg {
+  width: 300px;
+  height: 300px;
+  padding: 20px 20px;
+  border-radius: 50%;
+  background: rgb(192, 192, 192);
+  margin-top: -100px;
+}
+main .container h4 {
+  font-size: 60px;
+}
+main .container .textColor {
+  font-family: "Pattaya", sans-serif;
+  background: -webkit-linear-gradient(to right, #179ec6 0%, #107793 100%);
+  background: -moz-linear-gradient(to right, #179ec6 0%, #107793 100%);
+  background: linear-gradient(to right, #179ec6 0%, #107793 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+main .container p {
+  font-family: "Pattaya", sans-serif;
+  font-size: 2em;
+  color: rgba(37, 37, 37, 0.801);
+  padding: 30px;
+}
+
+.container p span {
+  font-size: 1em;
+}
+
+.imgSkills {
+  width: 100px;
+}
+
+.imgSkills:hover {
+  transform: scale(1.3, 1.3);
+}
+
+.contact {
+  text-decoration: none;
+}

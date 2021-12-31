@@ -1,0 +1,111 @@
+/* start slider */
+.carousel-item {
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-caption {
+  background: rgba(192, 192, 192, 0.705);
+  border-radius: 32px;
+}
+
+.carousel-caption h5 {
+  font-family: "Pattaya", sans-serif;
+  font-size: 43px;
+  background: -webkit-linear-gradient(to right, #179ec6 0%, #107793 100%);
+  background: -moz-linear-gradient(to right, #179ec6 0%, #107793 100%);
+  background: linear-gradient(to right, #179ec6 0%, #107793 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* end slider */
+
+/* start main */
+main {
+  min-height: 400px;
+}
+
+main .container .row .box {
+  background: rgba(255, 255, 255, 0.678);
+  border-radius: 30px;
+}
+
+main .container .row .box:hover {
+}
+
+main .row .box h4 {
+  font-family: "Pattaya", sans-serif;
+  margin-top: 8px;
+}
+
+/* end main */
+
+/* start strip */
+/* --------------------------- */
+.strip {
+  min-height: 400px;
+  background: rgba(192, 192, 192, 0.527);
+  box-shadow: 0px 10px 22px 0px #000000;
+}
+
+.strip .row .box {
+  border-radius: 20px;
+}
+
+.strip .row .box h4 {
+  font-family: "Pattaya", sans-serif;
+  font-size: 2em;
+}
+
+.strip .row .box h2 {
+  font-family: "Pattaya", sans-serif;
+  font-size: 60px;
+  background: -webkit-linear-gradient(to right, #179ec6 0%, #107793 100%);
+  background: -moz-linear-gradient(to right, #179ec6 0%, #107793 100%);
+  background: linear-gradient(to right, #179ec6 0%, #107793 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* --------------------------- */
+/* end strip */
+
+@media (max-width: 728px) {
+  .sm-img {
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 70vh;
+    background-image: url(../images/pic-1.jpg);
+  }
+
+  .sm-txt {
+    font-family: "Pattaya", sans-serif;
+    font-size: 67px;
+    background: -webkit-linear-gradient(to right, #179ec6 0%, #107793 100%);
+    background: -moz-linear-gradient(to right, #179ec6 0%, #107793 100%);
+    background: linear-gradient(to right, #179ec6 0%, #107793 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  #nav_burger {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+}
